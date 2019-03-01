@@ -78,6 +78,7 @@ Once you have the new array created, sort the universities alphabetically and lo
 const universities = [];
 for (let i = 0; i < graduates.length; i++) {
   universities.push(graduates[i].university);
+  universities.sort();
 }
 console.log(universities)
 
