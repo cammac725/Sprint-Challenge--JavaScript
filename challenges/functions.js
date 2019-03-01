@@ -27,6 +27,8 @@
 
 // Explanation: 
 
+// - Even though the function that contains the variable 'internal' has already been consumed, it's variables are stored in the closure and are accessible to nestedFunction.
+
 
 const external = "I'm outside the function";
 
